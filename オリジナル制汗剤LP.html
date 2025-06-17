@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ナチュラフレッシュ | 天然由来成分の制汗剤</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
+<script src="https://cdn.tailwindcss.com/3.4.16"></script>
+<script>tailwind.config={theme:{extend:{colors:{primary:'#7cc576',secondary:'#e8f5e4'},borderRadius:{'none':'0px','sm':'4px',DEFAULT:'8px','md':'12px','lg':'16px','xl':'20px','2xl':'24px','3xl':'32px','full':'9999px','button':'8px'}}}}</script>
+<style>
+:where([class^="ri-"])::before { content: "\f3c2"; }
+body {
+font-family: 'Noto Sans JP', sans-serif;
+background-color: #fcfcfc;
+}
+.sweat-drop {
+animation: drop 3s infinite ease-in-out;
+transform-origin: center top;
+}
+@keyframes drop {
+0%, 100% { transform: translateY(0) scale(1); opacity: 0.7; }
+50% { transform: translateY(20px) scale(0.9); opacity: 0; }
+}
+.testimonial-card {
+transition: all 0.3s ease;
+}
+.testimonial-card:hover {
+transform: translateY(-5px);
+}
+.ingredient-item {
+transition: all 0.3s ease;
+}
+.ingredient-item:hover {
+transform: scale(1.05);
+}
+</style>
+</head>
+<body class="text-gray-800">
+<!-- ナビゲーションバー -->
+<nav class="fixed top-0 w-full bg-white shadow-md z-50">
+<div class="max-w-[375px] mx-auto px-4 py-3 flex items-center">
+<div class="w-10 h-10 flex items-center justify-center bg-primary rounded-full mr-2">
+<span class="font-['Pacifico'] text-white text-xl">logo</span>
+</div>
+<h1 class="text-primary font-medium">ナチュラフレッシュ</h1>
+</div>
+</nav>
+<!-- メインコンテンツ -->
+<main class="pt-16 pb-16 max-w-[375px] mx-auto">
+<!-- ヒーローセクション -->
+<section class="relative h-[400px] overflow-hidden">
+<img src="https://readdy.ai/api/search-image?query=professional%20Japanese%20woman%20in%20her%2030s%2C%20elegant%20office%20worker%2C%20wearing%20business%20suit%2C%20natural%20makeup%2C%20confident%20pose%2C%20modern%20office%20background%2C%20clean%20and%20sophisticated%20appearance%2C%20soft%20lighting%2C%20high-end%20corporate%20environment%2C%20no%20sweat%20marks%20visible&width=375&height=400&seq=1&orientation=portrait" alt="自信に満ちた女性" class="w-full h-full object-cover object-top">
+<div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex flex-col justify-end p-6">
+<h2 class="text-white text-3xl font-bold mb-2">汗の悩みから<br>解放される日常へ</h2>
+<p class="text-white text-sm mb-4">天然由来成分100%の制汗剤で<br>一日中さわやかな気分を</p>
+<a href="#contact" class="bg-primary text-white py-3 px-6 rounded-button font-medium text-center shadow-lg cursor-pointer !rounded-button">
+今すぐ購入する
+</a>
+</div>
+</section>
+<!-- 悩みセクション -->
+<section class="px-4 py-8 bg-white">
+<h2 class="text-center text-2xl font-bold mb-6">こんな<span class="text-primary">悩み</span>ありませんか？</h2>
+<div class="space-y-4">
+<div class="flex items-start p-4 bg-secondary rounded-lg">
+<div class="w-8 h-8 flex items-center justify-center mr-3 mt-1">
+<i class="ri-checkbox-circle-fill ri-lg text-primary"></i>
+</div>
+<p>仕事中に汗ジミが気になって集中できない</p>
+</div>
+<div class="flex items-start p-4 bg-secondary rounded-lg">
+<div class="w-8 h-8 flex items-center justify-center mr-3 mt-1">
+<i class="ri-checkbox-circle-fill ri-lg text-primary"></i>
+</div>
+<p>制汗剤の化学成分が肌に合わず、かぶれることがある</p>
+</div>
+<div class="flex items-start p-4 bg-secondary rounded-lg">
+<div class="w-8 h-8 flex items-center justify-center mr-3 mt-1">
+<i class="ri-checkbox-circle-fill ri-lg text-primary"></i>
+</div>
+<p>汗の臭いが気になって、人と近づくのが怖い</p>
+</div>
+<div class="flex items-start p-4 bg-secondary rounded-lg">
+<div class="w-8 h-8 flex items-center justify-center mr-3 mt-1">
+<i class="ri-checkbox-circle-fill ri-lg text-primary"></i>
+</div>
+<p>夕方になると制汗効果が切れてしまう</p>
+</div>
+</div>
+</section>
+<!-- 商品紹介セクション -->
+<section class="px-4 py-8 bg-white mt-2">
+<div class="text-center mb-6">
+<span class="inline-block px-4 py-1 bg-primary text-white rounded-full text-sm mb-2">新発売</span>
+<h2 class="text-2xl font-bold">ナチュラフレッシュ</h2>
+<p class="text-sm text-gray-600">天然由来成分100%の高機能制汗剤</p>
+</div>
+<div class="relative bg-secondary rounded-xl p-6 mb-8">
+<div class="absolute -top-4 -right-4 w-16 h-16 bg-primary rounded-full flex items-center justify-center text-white font-bold">
+<div class="text-center">
+<div class="text-xs">24時間</div>
+<div class="text-sm">持続</div>
+</div>
+</div>
+<div class="flex justify-center">
+<img src="https://readdy.ai/api/search-image?query=elegant%20minimalist%20deodorant%20bottle%2C%20white%20and%20green%20color%20scheme%2C%20natural%20product%2C%20premium%20packaging%2C%20transparent%20background%2C%20product%20photography%2C%20clean%20aesthetic%2C%20eco-friendly%20design&width=200&height=300&seq=2&orientation=portrait" alt="ナチュラフレッシュ制汗剤" class="h-[250px] object-contain">
+</div>
+<div class="text-center mt-4">
+<p class="text-sm text-gray-600 mb-2">内容量: 50ml</p>
+<div class="flex justify-center items-center space-x-2 mb-4">
+<div class="flex">
+<div class="w-4 h-4 flex items-center justify-center text-primary">
+<i class="ri-star-fill ri-sm"></i>
+</div>
+<div class="w-4 h-4 flex items-center justify-center text-primary">
+<i class="ri-star-fill ri-sm"></i>
+</div>
+<div class="w-4 h-4 flex items-center justify-center text-primary">
+<i class="ri-star-fill ri-sm"></i>
+</div>
+<div class="w-4 h-4 flex items-center justify-center text-primary">
+<i class="ri-star-fill ri-sm"></i>
+</div>
+<div class="w-4 h-4 flex items-center justify-center text-primary">
+<i class="ri-star-half-fill ri-sm"></i>
+</div>
+</div>
+<span class="text-sm">4.7 (128件)</span>
+</div>
+<div class="flex justify-center items-end mb-2">
+<span class="text-xl font-bold">¥3,980</span>
+<span class="text-sm text-gray-600 ml-1">(税込)</span>
+</div>
+<p class="text-xs text-gray-500">送料無料 / 初回限定20%OFF</p>
+</div>
+</div>
+<div class="text-center mb-8">
+<a href="#purchase" class="inline-block bg-primary text-white py-3 px-8 rounded-button font-medium shadow-lg cursor-pointer !rounded-button">
+今すぐ購入する
+</a>
+<p class="text-xs text-gray-500 mt-2">※30日間返金保証付き</p>
+</div>
+</section>
+<!-- 特徴セクション -->
+<section class="px-4 py-8 bg-white mt-2">
+<h2 class="text-center text-2xl font-bold mb-6">ナチュラフレッシュの<span class="text-primary">3つの特徴</span></h2>
+<div class="space-y-6">
+<div class="bg-secondary rounded-lg p-5">
+<div class="flex items-center mb-3">
+<div class="w-10 h-10 flex items-center justify-center bg-primary rounded-full mr-3 text-white font-bold">1</div>
+<h3 class="text-lg font-bold">24時間持続する制汗効果</h3>
+</div>
+<p class="text-sm mb-4">特殊な天然ミネラル配合で、朝つけるだけで夜まで効果が持続。汗をかいても効果が落ちにくい処方です。</p>
+<div class="relative h-[150px] overflow-hidden rounded-lg">
+<img src="https://readdy.ai/api/search-image?query=business%20woman%20in%20meeting%2C%20looking%20confident%20and%20fresh%2C%20professional%20setting%2C%20office%20environment%2C%20business%20attire%2C%20natural%20lighting%2C%20clean%20aesthetic&width=350&height=150&seq=3&orientation=landscape" alt="仕事中も自信を持てる女性" class="w-full h-full object-cover">
+</div>
+</div>
+<div class="bg-secondary rounded-lg p-5">
+<div class="flex items-center mb-3">
+<div class="w-10 h-10 flex items-center justify-center bg-primary rounded-full mr-3 text-white font-bold">2</div>
+<h3 class="text-lg font-bold">肌に優しい天然由来成分</h3>
+</div>
+<p class="text-sm mb-4">アルミニウム塩不使用。敏感肌の方も安心して使える植物由来の成分で、肌トラブルを起こしにくい処方です。</p>
+<div class="relative h-[150px] overflow-hidden rounded-lg">
+<img src="https://readdy.ai/api/search-image?query=natural%20ingredients%20for%20skincare%2C%20aloe%20vera%2C%20tea%20tree%2C%20herbs%2C%20botanical%20elements%2C%20soft%20lighting%2C%20clean%20arrangement%20on%20white%20background%2C%20minimalist%20aesthetic&width=350&height=150&seq=4&orientation=landscape" alt="天然由来成分" class="w-full h-full object-cover">
+</div>
+</div>
+<div class="bg-secondary rounded-lg p-5">
+<div class="flex items-center mb-3">
+<div class="w-10 h-10 flex items-center justify-center bg-primary rounded-full mr-3 text-white font-bold">3</div>
+<h3 class="text-lg font-bold">爽やかな香りで気分もリフレッシュ</h3>
+</div>
+<p class="text-sm mb-4">天然ハーブエキス配合で、汗の臭いを中和するだけでなく、ほのかな香りで一日中気分も爽やかに保ちます。</p>
+<div class="relative h-[150px] overflow-hidden rounded-lg">
+<img src="https://readdy.ai/api/search-image?query=fresh%20herbs%20and%20flowers%2C%20lavender%2C%20mint%2C%20citrus%2C%20aromatic%20plants%2C%20bright%20natural%20lighting%2C%20clean%20aesthetic%20on%20white%20background&width=350&height=150&seq=5&orientation=landscape" alt="爽やかな香りの天然ハーブ" class="w-full h-full object-cover">
+</div>
+</div>
+</div>
+</section>
+<!-- 効果実証セクション -->
+<section class="px-4 py-8 bg-white mt-2">
+<h2 class="text-center text-2xl font-bold mb-6">実証された<span class="text-primary">効果</span></h2>
+<div class="bg-secondary rounded-lg p-5 mb-6">
+<h3 class="text-center font-bold mb-4">使用前と使用後の比較</h3>
+<div class="flex space-x-4">
+<div class="w-1/2">
+<div class="relative h-[150px] bg-gray-100 rounded-lg overflow-hidden mb-2">
+<img src="https://readdy.ai/api/search-image?query=woman%20with%20visible%20sweat%20marks%20on%20clothing%2C%20uncomfortable%20expression%2C%20office%20setting%2C%20before%20using%20deodorant&width=175&height=150&seq=6&orientation=portrait" alt="使用前" class="w-full h-full object-cover">
+<div class="absolute top-2 left-2 bg-gray-800 text-white text-xs px-2 py-1 rounded">使用前</div>
+</div>
+<ul class="text-xs space-y-1">
+<li class="flex items-center">
+<div class="w-4 h-4 flex items-center justify-center text-red-500 mr-1">
+<i class="ri-close-circle-fill ri-sm"></i>
+</div>
+<span>汗ジミが目立つ</span>
+</li>
+<li class="flex items-center">
+<div class="w-4 h-4 flex items-center justify-center text-red-500 mr-1">
+<i class="ri-close-circle-fill ri-sm"></i>
+</div>
+<span>臭いが気になる</span>
+</li>
+<li class="flex items-center">
+<div class="w-4 h-4 flex items-center justify-center text-red-500 mr-1">
+<i class="ri-close-circle-fill ri-sm"></i>
+</div>
+<span>自信が持てない</span>
+</li>
+</ul>
+</div>
+<div class="w-1/2">
+<div class="relative h-[150px] bg-gray-100 rounded-lg overflow-hidden mb-2">
+<img src="https://readdy.ai/api/search-image?query=confident%20woman%20in%20office%2C%20fresh%20and%20comfortable%2C%20no%20visible%20sweat%20marks%2C%20professional%20attire%2C%20after%20using%20deodorant&width=175&height=150&seq=7&orientation=portrait" alt="使用後" class="w-full h-full object-cover">
+<div class="absolute top-2 left-2 bg-primary text-white text-xs px-2 py-1 rounded">使用後</div>
+</div>
+<ul class="text-xs space-y-1">
+<li class="flex items-center">
+<div class="w-4 h-4 flex items-center justify-center text-primary mr-1">
+<i class="ri-check-circle-fill ri-sm"></i>
+</div>
+<span>汗ジミが見えない</span>
+</li>
+<li class="flex items-center">
+<div class="w-4 h-4 flex items-center justify-center text-primary mr-1">
+<i class="ri-check-circle-fill ri-sm"></i>
+</div>
+<span>爽やかな香り</span>
+</li>
+<li class="flex items-center">
+<div class="w-4 h-4 flex items-center justify-center text-primary mr-1">
+<i class="ri-check-circle-fill ri-sm"></i>
+</div>
+<span>自信に満ちた一日</span>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="bg-secondary rounded-lg p-5">
+<h3 class="text-center font-bold mb-4">臨床試験結果</h3>
+<div class="space-y-4">
+<div class="bg-white rounded-lg p-3">
+<div class="flex justify-between items-center mb-1">
+<span class="text-sm font-medium">制汗効果の持続時間</span>
+<span class="text-sm font-bold text-primary">24時間</span>
+</div>
+<div class="w-full bg-gray-200 rounded-full h-2">
+<div class="bg-primary h-2 rounded-full" style="width: 95%"></div>
+</div>
+</div>
+<div class="bg-white rounded-lg p-3">
+<div class="flex justify-between items-center mb-1">
+<span class="text-sm font-medium">肌トラブル発生率</span>
+<span class="text-sm font-bold text-primary">0.5%未満</span>
+</div>
+<div class="w-full bg-gray-200 rounded-full h-2">
+<div class="bg-primary h-2 rounded-full" style="width: 2%"></div>
+</div>
+</div>
+<div class="bg-white rounded-lg p-3">
+<div class="flex justify-between items-center mb-1">
+<span class="text-sm font-medium">使用者満足度</span>
+<span class="text-sm font-bold text-primary">97.8%</span>
+</div>
+<div class="w-full bg-gray-200 rounded-full h-2">
+<div class="bg-primary h-2 rounded-full" style="width: 98%"></div>
+</div>
+</div>
+</div>
+<p class="text-xs text-gray-500 mt-4 text-center">※30名のモニターによる2週間の使用テスト結果</p>
+</div>
+</section>
+<!-- 天然成分セクション -->
+<section class="px-4 py-8 bg-white mt-2">
+<h2 class="text-center text-2xl font-bold mb-6"><span class="text-primary">天然由来</span>の厳選成分</h2>
+<div class="grid grid-cols-2 gap-4">
+<div class="ingredient-item bg-secondary rounded-lg p-4 text-center">
+<div class="w-16 h-16 mx-auto mb-2 rounded-full overflow-hidden">
+<img src="https://readdy.ai/api/search-image?query=aloe%20vera%20plant%2C%20close%20up%2C%20natural%20ingredient%2C%20botanical%20photography%2C%20white%20background%2C%20clean%20aesthetic&width=64&height=64&seq=8&orientation=squarish" alt="アロエベラ" class="w-full h-full object-cover">
+</div>
+<h3 class="font-medium text-sm mb-1">アロエベラエキス</h3>
+<p class="text-xs">肌を保湿しながら、抗菌作用で雑菌の繁殖を抑制</p>
+</div>
+<div class="ingredient-item bg-secondary rounded-lg p-4 text-center">
+<div class="w-16 h-16 mx-auto mb-2 rounded-full overflow-hidden">
+<img src="https://readdy.ai/api/search-image?query=tea%20tree%20leaves%2C%20close%20up%2C%20natural%20ingredient%2C%20botanical%20photography%2C%20white%20background%2C%20clean%20aesthetic&width=64&height=64&seq=9&orientation=squarish" alt="ティーツリー" class="w-full h-full object-cover">
+</div>
+<h3 class="font-medium text-sm mb-1">ティーツリーオイル</h3>
+<p class="text-xs">天然の抗菌成分で汗の臭いの原因となる菌を抑える</p>
+</div>
+<div class="ingredient-item bg-secondary rounded-lg p-4 text-center">
+<div class="w-16 h-16 mx-auto mb-2 rounded-full overflow-hidden">
+<img src="https://readdy.ai/api/search-image?query=sage%20herb%2C%20close%20up%2C%20natural%20ingredient%2C%20botanical%20photography%2C%20white%20background%2C%20clean%20aesthetic&width=64&height=64&seq=10&orientation=squarish" alt="セージ" class="w-full h-full object-cover">
+</div>
+<h3 class="font-medium text-sm mb-1">セージエキス</h3>
+<p class="text-xs">汗腺の過剰な活動を自然に抑制し、発汗量をコントロール</p>
+</div>
+<div class="ingredient-item bg-secondary rounded-lg p-4 text-center">
+<div class="w-16 h-16 mx-auto mb-2 rounded-full overflow-hidden">
+<img src="https://readdy.ai/api/search-image?query=lavender%20flowers%2C%20close%20up%2C%20natural%20ingredient%2C%20botanical%20photography%2C%20white%20background%2C%20clean%20aesthetic&width=64&height=64&seq=11&orientation=squarish" alt="ラベンダー" class="w-full h-full object-cover">
+</div>
+<h3 class="font-medium text-sm mb-1">ラベンダーオイル</h3>
+<p class="text-xs">爽やかな香りと抗菌作用で、リラックス効果も</p>
+</div>
+</div>
+<div class="mt-6 bg-secondary rounded-lg p-4">
+<div class="flex items-center mb-2">
+<div class="w-6 h-6 flex items-center justify-center mr-2">
+<i class="ri-checkbox-circle-fill ri-lg text-primary"></i>
+</div>
+<h3 class="font-medium">無添加へのこだわり</h3>
+</div>
+<ul class="pl-8 text-sm space-y-1">
+<li class="list-disc">アルミニウム塩不使用</li>
+<li class="list-disc">パラベンフリー</li>
+<li class="list-disc">合成香料不使用</li>
+<li class="list-disc">アルコールフリー</li>
+<li class="list-disc">動物実験なし</li>
+</ul>
+</div>
+</section>
+<!-- 口コミセクション -->
+<section class="px-4 py-8 bg-white mt-2">
+<h2 class="text-center text-2xl font-bold mb-6">お客様の<span class="text-primary">声</span></h2>
+<div class="space-y-4 mb-6">
+<div class="testimonial-card bg-secondary rounded-lg p-4">
+<div class="flex items-center mb-2">
+<div class="w-10 h-10 rounded-full overflow-hidden mr-3">
+<img src="https://readdy.ai/api/search-image?query=professional%20woman%20portrait%2C%2030s%2C%20Japanese%2C%20business%20casual%2C%20neutral%20expression%2C%20clean%20background&width=40&height=40&seq=12&orientation=squarish" alt="佐藤さん" class="w-full h-full object-cover">
+</div>
+<div>
+<p class="font-medium text-sm">佐藤 美咲さん (32歳・会社員)</p>
+<div class="flex">
+<div class="w-4 h-4 flex items-center justify-center text-primary">
+<i class="ri-star-fill ri-sm"></i>
+</div>
+<div class="w-4 h-4 flex items-center justify-center text-primary">
+<i class="ri-star-fill ri-sm"></i>
+</div>
+<div class="w-4 h-4 flex items-center justify-center text-primary">
+<i class="ri-star-fill ri-sm"></i>
+</div>
+<div class="w-4 h-4 flex items-center justify-center text-primary">
+<i class="ri-star-fill ri-sm"></i>
+</div>
+<div class="w-4 h-4 flex items-center justify-center text-primary">
+<i class="ri-star-fill ri-sm"></i>
+</div>
+</div>
+</div>
+</div>
+<p class="text-sm">「今まで試した制汗剤の中で一番効果が持続します。プレゼンの多い仕事なので汗ジミが気になっていましたが、これを使い始めてからは自信を持って仕事に集中できるようになりました。香りも控えめで好きです。」</p>
+</div>
+<div class="testimonial-card bg-secondary rounded-lg p-4">
+<div class="flex items-center mb-2">
+<div class="w-10 h-10 rounded-full overflow-hidden mr-3">
+<img src="https://readdy.ai/api/search-image?query=professional%20woman%20portrait%2C%2040s%2C%20Japanese%2C%20casual%20smart%2C%20neutral%20expression%2C%20clean%20background&width=40&height=40&seq=13&orientation=squarish" alt="田中さん" class="w-full h-full object-cover">
+</div>
+<div>
+<p class="font-medium text-sm">田中 優子さん (41歳・看護師)</p>
+<div class="flex">
+<div class="w-4 h-4 flex items-center justify-center text-primary">
+<i class="ri-star-fill ri-sm"></i>
+</div>
+<div class="w-4 h-4 flex items-center justify-center text-primary">
+<i class="ri-star-fill ri-sm"></i>
+</div>
+<div class="w-4 h-4 flex items-center justify-center text-primary">
+<i class="ri-star-fill ri-sm"></i>
+</div>
+<div class="w-4 h-4 flex items-center justify-center text-primary">
+<i class="ri-star-fill ri-sm"></i>
+</div>
+<div class="w-4 h-4 flex items-center justify-center text-gray-300">
+<i class="ri-star-fill ri-sm"></i>
+</div>
+</div>
+</div>
+</div>
+<p class="text-sm">「敏感肌で今まで市販の制汗剤でかぶれることが多かったのですが、これは全く問題なく使えています。忙しい病棟勤務でも効果が持続するのが本当に助かります。リピート決定です。」</p>
+</div>
+<div class="testimonial-card bg-secondary rounded-lg p-4">
+<div class="flex items-center mb-2">
+<div class="w-10 h-10 rounded-full overflow-hidden mr-3">
+<img src="https://readdy.ai/api/search-image?query=professional%20woman%20portrait%2C%2020s%2C%20Japanese%2C%20casual%2C%20neutral%20expression%2C%20clean%20background&width=40&height=40&seq=14&orientation=squarish" alt="山田さん" class="w-full h-full object-cover">
+</div>
+<div>
+<p class="font-medium text-sm">山田 恵理さん (28歳・フリーランス)</p>
+<div class="flex">
+<div class="w-4 h-4 flex items-center justify-center text-primary">
+<i class="ri-star-fill ri-sm"></i>
+</div>
+<div class="w-4 h-4 flex items-center justify-center text-primary">
+<i class="ri-star-fill ri-sm"></i>
+</div>
+<div class="w-4 h-4 flex items-center justify-center text-primary">
+<i class="ri-star-fill ri-sm"></i>
+</div>
+<div class="w-4 h-4 flex items-center justify-center text-primary">
+<i class="ri-star-fill ri-sm"></i>
+</div>
+<div class="w-4 h-4 flex items-center justify-center text-primary">
+<i class="ri-star-fill ri-sm"></i>
+</div>
+</div>
+</div>
+</div>
+<p class="text-sm">「クライアントとの打ち合わせが多い仕事なので、見た目や臭いには気を使います。天然成分なのに効果がしっかりしているのが素晴らしい。価格は高めですが、それだけの価値があると思います。」</p>
+</div>
+</div>
+<div class="text-center">
+<a href="#purchase" class="inline-block bg-primary text-white py-3 px-8 rounded-button font-medium shadow-lg cursor-pointer !rounded-button">
+今すぐ購入する
+</a>
+</div>
+</section>
+<!-- 使い方セクション -->
+<section class="px-4 py-8 bg-white mt-2">
+<h2 class="text-center text-2xl font-bold mb-6">簡単<span class="text-primary">3ステップ</span>で効果的に</h2>
+<div class="space-y-6">
+<div class="flex">
+<div class="w-12 h-12 flex items-center justify-center bg-primary rounded-full text-white font-bold mr-4 flex-shrink-0">1</div>
+<div>
+<h3 class="font-bold mb-1">清潔な肌に塗布</h3>
+<p class="text-sm">入浴後の清潔な肌に塗ると、より効果的です。肌が完全に乾いていることを確認してください。</p>
+</div>
+</div>
+<div class="flex">
+<div class="w-12 h-12 flex items-center justify-center bg-primary rounded-full text-white font-bold mr-4 flex-shrink-0">2</div>
+<div>
+<h3 class="font-bold mb-1">適量を塗り広げる</h3>
+<p class="text-sm">米粒大の量を指先に取り、脇の下全体に優しく塗り広げます。こすりすぎないようにしてください。</p>
+</div>
+</div>
+<div class="flex">
+<div class="w-12 h-12 flex items-center justify-center bg-primary rounded-full text-white font-bold mr-4 flex-shrink-0">3</div>
+<div>
+<h3 class="font-bold mb-1">乾くまで待つ</h3>
+<p class="text-sm">完全に乾くまで1〜2分待ってから服を着てください。朝の使用で24時間効果が持続します。</p>
+</div>
+</div>
+</div>
+<div class="mt-6 bg-secondary rounded-lg p-4">
+<h3 class="font-bold mb-2 flex items-center">
+<div class="w-5 h-5 flex items-center justify-center mr-2 text-primary">
+<i class="ri-information-line ri-lg"></i>
+</div>
+効果を最大化するコツ
+</h3>
+<ul class="pl-7 text-sm space-y-1">
+<li class="list-disc">就寝前に塗ると翌日の効果が高まります</li>
+<li class="list-disc">運動前の使用もおすすめです</li>
+<li class="list-disc">肌トラブルが気になる場合は、パッチテストをしてからご使用ください</li>
+</ul>
+</div>
+</section>
+<!-- FAQ セクション -->
+<section class="px-4 py-8 bg-white mt-2">
+<h2 class="text-center text-2xl font-bold mb-6">よくある<span class="text-primary">質問</span></h2>
+<div class="space-y-4">
+<div class="border border-gray-200 rounded-lg overflow-hidden">
+<button class="faq-toggle w-full flex justify-between items-center p-4 bg-gray-50 cursor-pointer" data-target="faq1">
+<span class="font-medium">敏感肌でも使えますか？</span>
+<div class="w-5 h-5 flex items-center justify-center">
+<i class="ri-arrow-down-s-line ri-lg faq-icon"></i>
+</div>
+</button>
+<div id="faq1" class="faq-content hidden p-4">
+<p class="text-sm">はい、ナチュラフレッシュは敏感肌の方のために開発された製品です。アルミニウム塩やパラベン、合成香料などの刺激物を一切含まず、天然由来成分のみを使用しています。ただし、個人差がありますので、初めてご使用の際はパッチテストをおすすめします。</p>
+</div>
+</div>
+<div class="border border-gray-200 rounded-lg overflow-hidden">
+<button class="faq-toggle w-full flex justify-between items-center p-4 bg-gray-50 cursor-pointer" data-target="faq2">
+<span class="font-medium">効果はどのくらい持続しますか？</span>
+<div class="w-5 h-5 flex items-center justify-center">
+<i class="ri-arrow-down-s-line ri-lg faq-icon"></i>
+</div>
+</button>
+<div id="faq2" class="faq-content hidden p-4">
+<p class="text-sm">臨床試験では24時間の効果持続が確認されています。朝1回の使用で、一日中効果が持続します。特に汗をかきやすい方や、より効果を実感したい方は、就寝前の使用もおすすめです。</p>
+</div>
+</div>
+<div class="border border-gray-200 rounded-lg overflow-hidden">
+<button class="faq-toggle w-full flex justify-between items-center p-4 bg-gray-50 cursor-pointer" data-target="faq3">
+<span class="font-medium">服に白い跡がつきませんか？</span>
+<div class="w-5 h-5 flex items-center justify-center">
+<i class="ri-arrow-down-s-line ri-lg faq-icon"></i>
+</div>
+</button>
+<div id="faq3" class="faq-content hidden p-4">
+<p class="text-sm">ナチュラフレッシュは無色透明の処方で、適切に使用すれば服に白い跡がつくことはありません。塗布後は完全に乾くまで1〜2分お待ちいただくと、より安心です。</p>
+</div>
+</div>
+<div class="border border-gray-200 rounded-lg overflow-hidden">
+<button class="faq-toggle w-full flex justify-between items-center p-4 bg-gray-50 cursor-pointer" data-target="faq4">
+<span class="font-medium">定期コースはいつでも解約できますか？</span>
+<div class="w-5 h-5 flex items-center justify-center">
+<i class="ri-arrow-down-s-line ri-lg faq-icon"></i>
+</div>
+</button>
+<div id="faq4" class="faq-content hidden p-4">
+<p class="text-sm">はい、定期コースはいつでも解約・変更が可能です。次回お届け予定日の10日前までにお電話またはマイページからお手続きください。解約金や違約金は一切かかりません。</p>
+</div>
+</div>
+<div class="border border-gray-200 rounded-lg overflow-hidden">
+<button class="faq-toggle w-full flex justify-between items-center p-4 bg-gray-50 cursor-pointer" data-target="faq5">
+<span class="font-medium">返金保証の条件を教えてください</span>
+<div class="w-5 h-5 flex items-center justify-center">
+<i class="ri-arrow-down-s-line ri-lg faq-icon"></i>
+</div>
+</button>
+<div id="faq5" class="faq-content hidden p-4">
+<p class="text-sm">商品到着後30日以内であれば、使用済みの商品でも返金対応いたします。カスタマーサポートにご連絡いただき、簡単なアンケートにお答えいただくだけで手続き完了です。返送料も当社負担です。</p>
+</div>
+</div>
+</div>
+</section>
+<!-- お問い合わせセクション -->
+<section id="contact" class="px-4 py-8 bg-white mt-2 mb-16">
+<h2 class="text-center text-2xl font-bold mb-6">お<span class="text-primary">問い合わせ</span></h2>
+<div class="bg-secondary rounded-lg p-5 mb-6">
+<div class="flex items-center mb-4">
+<div class="w-10 h-10 flex items-center justify-center bg-primary rounded-full mr-3 text-white">
+<i class="ri-customer-service-2-line ri-lg"></i>
+</div>
+<div>
+<h3 class="font-bold">カスタマーサポート</h3>
+<p class="text-sm">平日 9:00〜18:00</p>
+</div>
+</div>
+<div class="space-y-3">
+<a href="tel:0120-123-456" class="flex items-center p-3 bg-white rounded-lg cursor-pointer">
+<div class="w-6 h-6 flex items-center justify-center mr-3 text-primary">
+<i class="ri-phone-line ri-lg"></i>
+</div>
+<span>0120-123-456</span>
+</a>
+<a href="mailto:support@naturafresh.jp" class="flex items-center p-3 bg-white rounded-lg cursor-pointer">
+<div class="w-6 h-6 flex items-center justify-center mr-3 text-primary">
+<i class="ri-mail-line ri-lg"></i>
+</div>
+<span>support@naturafresh.jp</span>
+</a>
+<a href="#" class="flex items-center p-3 bg-white rounded-lg cursor-pointer">
+<div class="w-6 h-6 flex items-center justify-center mr-3 text-primary">
+<i class="ri-line-line ri-lg"></i>
+</div>
+<span>LINE公式アカウント</span>
+</a>
+</div>
+</div>
+<form class="space-y-4">
+<div>
+<label for="contact-name" class="block text-sm font-medium mb-1">お名前</label>
+<input type="text" id="contact-name" class="w-full h-10 px-3 border border-gray-300 rounded-lg">
+</div>
+<div>
+<label for="contact-email" class="block text-sm font-medium mb-1">メールアドレス</label>
+<input type="email" id="contact-email" class="w-full h-10 px-3 border border-gray-300 rounded-lg">
+</div>
+<div>
+<label for="contact-subject" class="block text-sm font-medium mb-1">件名</label>
+<input type="text" id="contact-subject" class="w-full h-10 px-3 border border-gray-300 rounded-lg">
+</div>
+<div>
+<label for="contact-message" class="block text-sm font-medium mb-1">お問い合わせ内容</label>
+<textarea id="contact-message" rows="4" class="w-full p-3 border border-gray-300 rounded-lg"></textarea>
+</div>
+<button type="submit" class="w-full bg-primary text-white py-3 rounded-button font-medium shadow-lg cursor-pointer !rounded-button">
+送信する
+</button>
+</form>
+</section>
+</main>
+<!-- タブバー -->
+<div class="fixed bottom-0 w-full bg-white border-t border-gray-200 shadow-lg">
+<div class="max-w-[375px] mx-auto grid grid-cols-4 h-16">
+<a href="#" class="flex flex-col items-center justify-center cursor-pointer">
+<div class="w-6 h-6 flex items-center justify-center text-primary">
+<i class="ri-home-5-line ri-lg"></i>
+</div>
+<span class="text-xs mt-1">ホーム</span>
+</a>
+<a href="#" class="flex flex-col items-center justify-center cursor-pointer">
+<div class="w-6 h-6 flex items-center justify-center text-gray-500">
+<i class="ri-shopping-bag-line ri-lg"></i>
+</div>
+<span class="text-xs mt-1 text-gray-500">商品</span>
+</a>
+<a href="#purchase" class="flex flex-col items-center justify-center cursor-pointer">
+<div class="w-6 h-6 flex items-center justify-center text-gray-500">
+<i class="ri-shopping-cart-line ri-lg"></i>
+</div>
+<span class="text-xs mt-1 text-gray-500">購入</span>
+</a>
+<a href="#contact" class="flex flex-col items-center justify-center cursor-pointer">
+<div class="w-6 h-6 flex items-center justify-center text-gray-500">
+<i class="ri-customer-service-line ri-lg"></i>
+</div>
+<span class="text-xs mt-1 text-gray-500">サポート</span>
+</a>
+</div>
+</div>
+<!-- モーダル -->
+<div id="success-modal" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 hidden">
+<div class="bg-white rounded-lg p-6 max-w-[300px] w-full">
+<div class="text-center mb-4">
+<div class="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-3 text-white">
+<i class="ri-check-line ri-2x"></i>
+</div>
+<h3 class="text-xl font-bold">注文完了</h3>
+<p class="text-sm text-gray-600 mt-2">ご注文ありがとうございます。確認メールをお送りしました。</p>
+</div>
+<button id="close-modal" class="w-full bg-primary text-white py-2 rounded-button font-medium cursor-pointer !rounded-button">
+閉じる
+</button>
+</div>
+</div>
+<script id="quantity-control">
+document.addEventListener('DOMContentLoaded', function() {
+const decreaseBtn = document.getElementById('decrease');
+const increaseBtn = document.getElementById('increase');
+const quantityInput = document.getElementById('quantity');
+decreaseBtn.addEventListener('click', function() {
+let value = parseInt(quantityInput.value);
+if (value > 1) {
+quantityInput.value = value - 1;
+}
+});
+increaseBtn.addEventListener('click', function() {
+let value = parseInt(quantityInput.value);
+quantityInput.value = value + 1;
+});
+});
+</script>
+<script id="faq-toggle">
+document.addEventListener('DOMContentLoaded', function() {
+const faqToggles = document.querySelectorAll('.faq-toggle');
+faqToggles.forEach(toggle => {
+toggle.addEventListener('click', function() {
+const targetId = this.getAttribute('data-target');
+const content = document.getElementById(targetId);
+const icon = this.querySelector('.faq-icon');
+if (content.classList.contains('hidden')) {
+content.classList.remove('hidden');
+icon.classList.remove('ri-arrow-down-s-line');
+icon.classList.add('ri-arrow-up-s-line');
+} else {
+content.classList.add('hidden');
+icon.classList.remove('ri-arrow-up-s-line');
+icon.classList.add('ri-arrow-down-s-line');
+}
+});
+});
+});
+</script>
+<script id="order-submit">
+document.addEventListener('DOMContentLoaded', function() {
+const submitBtn = document.getElementById('submit-order');
+const modal = document.getElementById('success-modal');
+const closeModalBtn = document.getElementById('close-modal');
+submitBtn.addEventListener('click', function(e) {
+e.preventDefault();
+const nameInput = document.getElementById('name');
+const emailInput = document.getElementById('email');
+const agreeCheckbox = document.getElementById('agree');
+if (!nameInput.value) {
+nameInput.classList.add('border-red-500');
+return;
+}
+if (!emailInput.value) {
+emailInput.classList.add('border-red-500');
+return;
+}
+if (!agreeCheckbox.checked) {
+const agreeLabel = document.querySelector('label[for="agree"]');
+agreeLabel.classList.add('text-red-500');
+return;
+}
+modal.classList.remove('hidden');
+});
+closeModalBtn.addEventListener('click', function() {
+modal.classList.add('hidden');
+});
+// 入力フィールドのエラー表示をクリア
+const inputs = document.querySelectorAll('input');
+inputs.forEach(input => {
+input.addEventListener('focus', function() {
+this.classList.remove('border-red-500');
+const label = document.querySelector(`label[for="${this.id}"]`);
+if (label) {
+label.classList.remove('text-red-500');
+}
+});
+});
+});
+</script>
+</body>
+</html>
